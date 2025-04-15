@@ -222,13 +222,83 @@
 //   document.write("You are ripe for Marriage");
 // }
 
-let weather = prompt("What is the weather today?");
-if (weather === "Rainy") {
-  document.write("Don't go to the market");
-} else if (weather === "Sunny") {
-  document.write("Go to the market");
-} else if (weather == "Cloudy") {
-  document.write("Go and play");
-} else {
-  document.write("Go and eat");
+// let weather = prompt("What is the weather today?");
+// if (weather === "Rainy") {
+//   document.write("Don't go to the market");
+// } else if (weather === "Sunny") {
+//   document.write("Go to the market");
+// } else if (weather == "Cloudy") {
+//   document.write("Go and play");
+// } else {
+//   document.write("Go and eat");
+// }
+
+function addNumbers(a, b) {
+  return a + b;
+}
+
+console.log(addNumbers(5, 10));
+
+const name = "John";
+const age = 30;
+
+console.log(`Hello, my name is ${name} and I am ${age} years Old`);
+
+// let x = 5;
+// if(x > 10){
+
+// } else {
+
+// }
+
+// const mySchedule = prompt("What day is it?");
+
+// switch (mySchedule) {
+//   case "Sunday":
+//     console.log("I am going to Church");
+//     break;
+
+//   case "Monday":
+//     console.log("I am going to Work");
+//     break;
+
+//   case "Tuesday":
+//     console.log("I am going to party");
+//     break;
+
+//   case "Wednesday":
+//     console.log("I am going to sleep");
+//     break;
+
+//   default:
+//     console.log("I am home");
+//     break;
+// }
+
+// let count = 0;
+// while (count < 10) {
+//   console.log("Emmanuel is the most Handsome man in the world");
+//   count++;
+// }
+
+let count1 = 0; //Declare count1
+while (count1 <= 5) {
+  //Conditional
+  console.log("I ate too much");
+  count1++; //Increment
+}
+
+let x = 10; //Declare
+do {
+  document.write(x);
+  x++; //increment
+} while (x < 7); // Codition
+
+// while (x < 7) {
+//   document.write(x);
+//   x++;
+// }
+
+for (let count3 = 0; count3 < 3; count3++) {
+  document.write("I am tired ");
 }
